@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 COMMAND PATTERN
 ===============
 
@@ -26,3 +27,19 @@ en el nombre de los paquetes que se indican en los casos test.
 - Realiza commits periódicamente mientras avanzas en el desarrollo de la aplicación.
 - Publica tu solución en un repo en GitHub.
 - Compártelo conmigo si es privado.
+=======
+# Autograding Example: Java
+This example project is written in Java, and tested with Gradle/JUnit.
+
+### The assignment
+The tests are currently failing because of an output mismatch. Fixing the `System.out.println` in the main method will make the tests green.
+
+### Setup command
+N/A
+
+### Run command
+`gradle test`
+
+### Notes
+- The JDK is installed on GitHub Actions machines, so you're also able to directly invoke `javac`, `java`, or any other CLI command included in the JDK. 
+>>>>>>> 8e171f3a8dfb6355c2568513b5e426debc6af519

@@ -17,3 +17,5 @@ mordor-command-master.zip
 commandPattern.iml
 
 .idea
+build/
+.gradle/
