@@ -1,5 +1,9 @@
+package edu.ping.damian;
+
 public class TratamientoPedidoInternacional implements TratamientoPedido{
+    
     PedidoInternacional pedidoInternacional;
+
     TratamientoPedidoInternacional(PedidoInternacional pedidoInternacional){
         this.pedidoInternacional = pedidoInternacional;
     }
