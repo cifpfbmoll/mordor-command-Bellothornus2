@@ -20,4 +20,12 @@ public class TratamientoPedidoMultiple implements TratamientoPedido{
     public Long getNumBultos(){
         return this.numBultos;
     }
+
+    public void calcularPesoTotal(){
+
+    }
+
+    public void calcularTotalBultos(){
+        
+    }
 }
