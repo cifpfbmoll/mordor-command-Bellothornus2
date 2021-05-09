@@ -14,3 +14,6 @@ target/
 .sts4-cache/
 
 mordor-command-master.zip
+commandPattern.iml
+
+.idea

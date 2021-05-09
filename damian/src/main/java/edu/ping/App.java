@@ -1,5 +1,4 @@
 package edu.ping.damian;
-
 /**
  * Crea una oficina que procesa pedidos.
  * 
@@ -55,13 +54,13 @@ public class App {
         System.out.println(oficina.printarStatus(oficina.procesa(tratamientoInt), pedido));
 
         pedido = new PedidoPeligrosoOrden("Cima de los vientos", 
-                                          "No urgarse en las uñas con este puñal");
+                                            "No urgarse en las uñas con este puñal");
         TratamientoPedido peligroso = new TratamientoPedidoPeligroso((PedidoPeligroso) pedido);
         
         System.out.println(oficina.printarStatus(oficina.procesa(peligroso), pedido));
 
         pedido = new PedidoPeligrosoOrden("Monte del destino", 
-                                          "No ponerselo en el dedo");
+                                            "No ponerselo en el dedo");
         peligroso = new TratamientoPedidoPeligroso((PedidoPeligroso) pedido);
         
         System.out.println(oficina.printarStatus(oficina.procesa(peligroso), pedido));
